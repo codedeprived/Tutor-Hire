@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "tbl_domain")
 public class Domain {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.TABLE)
 	@Column(name = "domain_id", nullable = false, unique = true, length = 100)
 	private int domainId;
 

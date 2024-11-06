@@ -12,7 +12,6 @@ public class HibernateUtil {
 		cfg.configure("hibernate.cfg.xml");
 		SF = cfg.buildSessionFactory();
 		return SF;
-
 	}
 
 	public static void main(String[] args) {

@@ -15,7 +15,7 @@ import javax.persistence.Table;
 @Table(name = "tbl_hire")
 public class Hire {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.TABLE)
 	@Column(name = "hire_id", nullable = false)
 	private int hireId;
 
